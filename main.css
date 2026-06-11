@@ -293,13 +293,13 @@
           border-radius: 50px;
          text-transform: none;
       }
-  .language-nav li:last-child a.active {
+  .language-nav .link-to-blog a.active {
 
           background: dodgerblue;
           color: white;
          
       }
-      .language-nav li:last-child a:hover{
+      .language-nav .link-to-blog a:hover{
            filter: brightness(95%);
       }
       .top-header {
