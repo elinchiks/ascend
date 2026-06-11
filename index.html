@@ -373,7 +373,13 @@
     }
     }, true);
         
+        document.querySelectorAll('.video video').forEach(video => {
+  video.addEventListener('canplay', () => {
+    video.classList.add('ready');
+  });
+});
         
+ 
 
   </script>
 </body>
