@@ -162,7 +162,7 @@ video.ready + .video-tag {
           text-align: left;
       }
       
-      @media (max-width: 900px) {
+      @media (max-width: 1340px) {
         .side-nav {
             top: auto;
           bottom: 55px;
@@ -194,7 +194,7 @@ video.ready + .video-tag {
        .side-nav em {
            display: none;
       }
-    @media (max-width: 900px) {
+    @media (max-width: 1340px) {
         .side-nav a {
             padding: 15px 10px;
             width: 55px;
