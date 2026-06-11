@@ -80,6 +80,7 @@
           width: 29% !important;
          padding: 2% !important;
         }
+
         .content-row.title .image {
           width: 48% !important;
       }
@@ -262,7 +263,7 @@
       list-style-type: none;
       text-transform: uppercase;
         margin: 0;
-        padding: 0;
+        padding: 0 20px;
 /*        background: #eff2f8;*/
 /*        background: #f6f6f6;*/
         
@@ -279,14 +280,14 @@
           text-decoration: none;
           padding: 30px 10px;
       }
-     .language-nav li:last-child a {
+     .language-nav .link-to-blog a {
           display: inline-block;
           color: dodgerblue;
           background: white;
           padding: 10px ;
           text-decoration: none;
           margin: 5px;
-         margin-right: 20px;
+         margin-right: 0;
           width: 100px;
           text-align: center;
           border-radius: 50px;
