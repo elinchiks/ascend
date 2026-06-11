@@ -68,7 +68,7 @@ video.ready + .video-tag {
       
       @media (max-width: 900px) {
           .video-tag {
-              display: none;
+              display: none !important;
           }
       }
       
