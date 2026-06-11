@@ -23,8 +23,12 @@
           display: inline-block;
           padding: 10px;
       }
+video {
+    background-color: rgba(0, 0, 0, 0.8);
+}
 
-video::-webkit-media-controls-panel {
+
+video::-webkit-media-controls-panel, video::-ms-media-controls {
    background-image: none !important;
      background-color: transparent !important;
    box-shadow: none !important;
