@@ -235,7 +235,7 @@ video.ready + .video-tag {
         
         .side-nav a:hover, .side-nav li:nth-child(1) a:hover  {
             box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-            width: 160px;
+            width: 170px;
             transition: 0.2s width;
         }
         
@@ -346,7 +346,7 @@ display: none;
     width: 120px;
     top: 20px;
     left: 50%;
-    margin-left: -90px;
+    margin-left: -60px;
      clear: both;
         display: block;
           max-width: 100%;
@@ -365,10 +365,8 @@ display: none;
           width: 100% !important;
         }
          .top-header .logo {
-/*
-          left: 20px;
-         margin-left: 0;
-*/
+/*          left: 20px;*/
+/*         margin-left: 0;*/
              width: 120px;
              top: 17px;
         }
