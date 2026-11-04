@@ -404,6 +404,12 @@ display: none;
     width: 250px;
     max-width: 90%;
     overflow: hidden;
+    padding: 0 10px;
+}
+
+.page-description-text {
+    width: 450px;
+    max-width: 50%;
 }
 
 .page-description-image img {
