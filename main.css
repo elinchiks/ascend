@@ -233,7 +233,7 @@ video.ready + .video-tag {
            font-style: normal;
         }
         
-        .side-nav a:hover {
+        .side-nav a:hover, .side-nav li:nth-child(1) a:hover  {
             box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
             width: 160px;
             transition: 0.2s width;
