@@ -209,8 +209,15 @@ video.ready + .video-tag {
        .side-nav em {
            display: none;
       }
+
+    .side-nav li:nth-child(1) a{
+/*          background: dodgerblue;*/
+          background: #8e98a2;
+                padding: 15px;
+          width: 210px;
+      }
     @media (max-width: 1340px) {
-        .side-nav a {
+        .side-nav a, .side-nav li:nth-child(1) a {
             padding: 15px 10px;
             width: 55px;
             overflow: hidden;
@@ -238,12 +245,7 @@ video.ready + .video-tag {
         }
       }
  
-      .side-nav li:nth-child(1) a{
-/*          background: dodgerblue;*/
-          background: #8e98a2;
-                padding: 15px;
-          width: 210px;
-      }
+  
       .side-nav li:nth-child(2) a {
           background: #ec5e2e;
       
